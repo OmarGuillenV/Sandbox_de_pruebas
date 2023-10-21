@@ -1,5 +1,36 @@
+/*comentario en css se hace de esta puta manera*/
 form{
-    font_family:verdana;
+    font-family: verdana;
     color:lightblue;
     font-size: 15px;
+}
+
+#parrafo_chungo{
+    font-size: 20px;
+    color:salmon;
+}
+
+caption {
+    font-family: tahoma;
+    color: darkblue;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+th {
+    font-family: Brush Script MT, cursive;
+    font-size: 15px;
+    text-decoration: underline green;
+}
+
+.animalicos {
+    color:red;
+    font-style:italic;
+}
+.posturas {
+    color:orange;
+    font-weight:bold;
+}
+.yoes {
+    color: purple;
 }

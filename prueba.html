@@ -13,6 +13,10 @@
             font-weight:bold;
             font-style:italic;
         }
+        table {
+            border-style: dotted;
+            background: lightgrey;
+        }
     </style>
     <link rel="stylesheet" href="estilazos.css">
 </head>
@@ -28,10 +32,67 @@
     <p>
         Aquí mismo meteremos formularios mismamente!
     </p>
+    <p id="parrafo_chungo">
+        Este será el parrafo con ID
+    </p>
     <form>
         <label>pongamos tu puto nombre</label>
         <input type="text">
+        <br>
+        <label>pongamos tu sucia edad</label>
+        <input type="number">
+        <br>
+        <label for="email">deja aqui tu correillo</label>
+        <input type="email">
     </form>
+</div>
+<div>
+    <!-- lista sin ordenar-->
+    <ul class="animalicos">
+        <li>perrete</li>
+        <li>gatete</li>
+        <li>ratita</li>
+    </ul>
+    <!-- lista ordenada-->
+    <ol class="posturas">
+        <li>perrito</li>
+        <li>misionero</li>
+        <li>cowboy</li>
+    </ol>
+    <dl class="yoes">
+        <dt>watashi</dt>
+        <dd>- yo</dd>
+        <dt>ore</dt>
+        <dd>- yo</dd>
+        <dt>washi</dt>
+        <dd>- yo</dd>
+    </dl>
+</div>
+<div>
+    <!-- aqui metemos una tabla para seguir practicando con esta mierda-->
+    <table>
+        <caption>titulo de tabla</caption>
+        <tr>
+            <th>encabezado de columna 1</th>
+            <th>encabezado de columna 2</th>
+            <th>encabezado de columna 3</th>
+        </tr>
+        <tr>
+            <td>columna 1a</td>
+            <td>columna 2a</td>
+            <td>columna 3a</td>
+        </tr>
+        <tr>
+            <td>columna 1b</td>
+            <td>columna 2b</td>
+            <td>columna 3b</td>
+        </tr>
+        <tr>
+            <td>columna 1c</td>
+            <td>columna 2c</td>
+            <td>columna 3c</td>
+        </tr>
+    </table>
 </div>
 </body>
 </html>
